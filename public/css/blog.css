@@ -82,25 +82,33 @@ italic
 .comp_info
 {
     padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .conteneur_comp1, .conteneur_comp2, .conteneur_comp3
 {
     display: flex;
 }
-.img_html5, .img_css3, .img_php, .img_matlab, .img_java
+
+.img_html5, .img_css3, .img_php, .img_matlab, .img_java, .img_python
 {
     width: 150px;
     height: auto;
     padding-right: 20px;
     padding-left: 20px;
 }
+
 .progress
 {
     background-color: sandybrown;
     height: 50px;
     width: 500px;
 }
-.comp_html5, .comp_css3, .comp_php, .comp_matlab, .comp_java
+
+.comp_html5, .comp_css3, .comp_php, .comp_matlab, .comp_java, .comp_python
 {
     display: flex;
     align-items: center;
@@ -108,12 +116,13 @@ italic
     padding-left: 20px;
 } 
 
-.btn_position 
+.container-sm
 {
-    display: flex;
-    flex-direction: column;
-
+    position: relative;
+    top: 10px;
+    left: 415px;
 }
+
 .btn_comp
 {
     height: 30px;
@@ -121,6 +130,12 @@ italic
     border-radius: 5px;
     margin: 10px 0px 0px 470px;
 }
+
+.sr-only
+{
+    font-size: 18px;
+}
+
 
 
 /*******************STOP COMPETENCE***************************/

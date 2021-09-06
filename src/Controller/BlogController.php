@@ -29,28 +29,28 @@ class BlogController extends AbstractController
      * @Route ("/apropos", name="apropos")
      */
     public function apropos() {
-        return $this->render('blog/apropos.html.twig');
+        return $this->render('blog/aPropos/apropos.html.twig');
     }
 
     /**
      * @Route ("/experience", name="experience")
      */
     public function experience() {
-        return $this->render('blog/experience.html.twig');
+        return $this->render('blog/experience/experience.html.twig');
     }
 
         /**
      * @Route ("/diplome", name="diplome")
      */
     public function diplome() {
-        return $this->render('blog/diplome.html.twig');
+        return $this->render('blog/diplome/diplome.html.twig');
     }
     
     /**
      * @Route ("/competence", name="competence")
      */
     public function competence() {
-        return $this->render('blog/competence.html.twig');
+        return $this->render('blog/competence/competence.html.twig');
     }
 
     /**
