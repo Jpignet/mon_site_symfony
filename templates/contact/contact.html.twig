@@ -1,15 +1,25 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}Portfolio de Jean Pignet - Me contacter{% endblock %}
+
 {% block body %}
     <h1>Contact</h1>
     <div style="text-align: center; margin-bottom: 20px;">Si vous avez des questions, ou si vous souhaitez échanger, vous pouvez me contacter en cliquant <a href="mailto:jeanpignet@gmail.com">ICI.</a></div>
     
     <h1>Détail</h1>
     <div id="conteneur_detail">
-        <img class="lie" src="/images/lieux.png" alt="" title="">Meyreuil, France
-        <img class="pho" src="/images/phone.png" alt="" title="">+33 6 67 77 82 70
-        <img class="mai" src="/images/mail.png" alt="" title="">jeanpignet@gmail.com
-        <img class="sit" src="/images/site.png" alt="" title="">ADU
+        <div class="lieu">
+            <img class="lie" src="/images/lieux.png" alt="" title="">Meyreuil, France
+        </div>
+        <div class="phone">
+            <img class="pho" src="/images/phone.png" alt="" title="">+33 6 67 77 82 70
+        </div>
+        <div class="mail">
+            <img class="mai" src="/images/mail.png" alt="" title="">jeanpignet@gmail.com
+        </div>
+        <div class="site">
+            <img class="sit" src="/images/site.png" alt="" title="">ADU
+        </div>
     </div>
 
 
