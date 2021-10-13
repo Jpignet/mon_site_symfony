@@ -1,11 +1,13 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}Portfolio de Jean Pignet - A propos de moi{% endblock %}
 {% block body %}
 <h1>A propos de moi</h1>
 
 <div id="conteneur_aboutme">
     <div id="aboutme">
         <p><h4>Jean Pignet, 26 ans</h4></p>
+        <br>
         <p>J’ai obtenu un Master en Science et Technique des Activités Physiques et Sportives en 2019 à l’Université de Reims Champagne Ardenne.</p>
         <p>Durant ces 5 années de formation je me suis passionné pour le mouvement Humain et la biomécanique au sens large. Du laboratoire de chercheur de l’Université de 
         Franche-Comté aux open spaces d’un grand industriel Versaillais. Mes stages mon permit de fréquenter différentes personnes, univers et thématiques.</p>
@@ -13,6 +15,28 @@
         travaillé pendant une années.</p>
         <p>Les aléas de la vie mon amené à poser mes valises dans le sud de la France (Aix en Provence). Durant mon temps libre j’ai renforcé mon intérêt pour l’informatique 
         et les nouvelle technologies. Autodidacte,  j’ai appris plusieurs langages de programmation.</p>
+        <p>Ce site a pour but de présenter les différents projets sur lesquels j'ai travaillé ces dernières années. Vous pouvez également consulter mon CV Universitaire ainsi que mon CV Technique. </p>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CV Universitaire</h5>
+                        <p class="card-text">Format standard comprenant ma formation initiale, mes différents stages et mes différentes expériences.</p>
+                        <a href="fichier/CV_JeanPignet.pdf"><button type="button" class="btn btn-secondary" >Consulter</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">CV Technique</h5>
+                        <p class="card-text">Format technique comprenant les savoir-faire, les compétences techniques en informatique et les différents projets en cours / effectués.</p>
+                        <a href="fichier/CV_tech_JeanPignet.pdf"><button type="button" class="btn btn-secondary" >Consulter</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="img_profil">
         <img src="/images/img_cv.png" alt="Photo de profil Jean Pignet" title="Photo de profil Jean Pignet">

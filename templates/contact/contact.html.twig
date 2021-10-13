@@ -1,24 +1,34 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}Portfolio de Jean Pignet - Me contacter{% endblock %}
+
 {% block body %}
     <h1>Contact</h1>
     <div style="text-align: center; margin-bottom: 20px;">Si vous avez des questions, ou si vous souhaitez échanger, vous pouvez me contacter en cliquant <a href="mailto:jeanpignet@gmail.com">ICI.</a></div>
     
     <h1>Détail</h1>
     <div id="conteneur_detail">
-        <img class="lie" src="/images/lieux.png" alt="" title="">Meyreuil, France
-        <img class="pho" src="/images/phone.png" alt="" title="">+33 6 67 77 82 70
-        <img class="mai" src="/images/mail.png" alt="" title="">jeanpignet@gmail.com
-        <img class="sit" src="/images/site.png" alt="" title="">ADU
+        <div class="lieu">
+            <img class="lie" src="/images/lieux.png" alt="" title="">Meyreuil, Bouches-du-Rhône, France
+        </div>
+        <div class="phone">
+            <img class="pho" src="/images/phone.png" alt="" title="">+33 6 67 77 82 70
+        </div>
+        <div class="mail">
+            <img class="mai" src="/images/mail.png" alt="" title="">jeanpignet@gmail.com
+        </div>
+        <div class="site">
+            <img class="sit" src="/images/site.png" alt="" title="">https://jean-pignet-portfolio.herokuapp.com/
+        </div>
     </div>
 
 
     <h1>Réseaux</h1>
     <div id="conteneur_reseau">
-        <a href="http://www.linkedin.com/in/jeanpignet"><img class="lin" src="/images/linkedin.png" alt="Lien Linkedin Pignet Jean" title="Lien likedin Jean Pignet">
-        <a href="http://www.instagram.com/jeanpignet"><img class="ins" src="/images/instagrame.png" alt="Lien instagrame Pignet Jean" title="Lien instagrame Jean Pignet">
-        <a href="http://www.twitter.com/PignetJean"><img class="twi" src="/images/twitter.png" alt="Lien twitter Pignet Jean" title="Lien twitter Jean Pignet">
-
+        <a href="http://www.linkedin.com/in/jeanpignet"><img id="logocontact" src="/images/logo_linkedin.png" alt="Lien Linkedin Pignet Jean" title="Lien likedin Jean Pignet"></a>
+        <a href="http://www.instagram.com/jeanpignet"><img id="logocontact" src="/images/logo_instagram.png" alt="Lien Instagram Pignet Jean" title="Lien instagram Jean Pignet"></a>
+        <a href="http://www.twitter.com/PignetJean"><img id="logocontact" src="/images/logo_twitter.png" alt="Lien Twitter Pignet Jean" title="Lien Twitter Jean Pignet"></a>
+        <a href="https://github.com/Jpignet"><img id="logocontact" src="/images/logo_github.png" alt="Lien GitHub Pignet Jean" title="Lien GitHub Jean Pignet"></a>
     </div>
 
  {% endblock %}

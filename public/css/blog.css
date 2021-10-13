@@ -20,7 +20,7 @@ italic
 .fond_acceuil
 {
     /* On met en place le fond d'écran */
-    min-height: 100%;
+    min-height: 100%; 
     min-width: 100%;
     /* On indique un redimensionnement proportionnel */
     width: 100%;
@@ -39,16 +39,14 @@ italic
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap-reverse;
 }
 
 #aboutme
 {
     width: 50%;
     text-align: justify;
-}
-#img_profil
-{
-
+    padding-right: 20px;
 }
 /*******************STOP ABOUT ME***************************/
 
@@ -56,6 +54,7 @@ italic
 #conteneur_exp1, #conteneur_exp2, #conteneur_exp3, #conteneur_exp4, #conteneur_dip1, #conteneur_dip2
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin: auto;  
@@ -71,7 +70,9 @@ italic
 #descriptif_exp1, #descriptif_exp2, #descriptif_exp3, #descriptif_exp4, #descriptif_dip1, #descriptif_dip2
 {
     /*border: 1px red solid;*/
+    width: 70%;
     padding-left: 30px;
+    padding-top: 30px;
     text-align: justify;
 }
 
@@ -79,19 +80,13 @@ italic
 
 
 /*******************START COMPETENCE***************************/
-.comp_info
+.container_info
 {
-    padding-bottom: 60px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-}
 
-.conteneur_comp1, .conteneur_comp2, .conteneur_comp3
-{
-    display: flex;
-}
+}  
 
 .img_html5, .img_css3, .img_php, .img_matlab, .img_java, .img_python
 {
@@ -112,8 +107,9 @@ italic
 {
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    padding-left: 20px;
+    /*padding-top: 20px;
+    padding-left: 20px;*/
+    padding: 20px;
 } 
 
 .container-sm
@@ -121,14 +117,14 @@ italic
     position: relative;
     top: 10px;
     left: 415px;
+    align-items: center;
 }
 
-.btn_comp
+.btn_position
 {
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;
-    margin: 10px 0px 0px 470px;
+    position: relative;
+    top: 5px;
+    left: 20px;
 }
 
 .sr-only
@@ -144,6 +140,7 @@ italic
 #conteneur_detail
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
 }
@@ -162,7 +159,7 @@ italic
     justify-content: center;
 }
 
-.lin, .ins, .twi
+#logocontact
 {
     height: 50px;
     padding-left: 20px;
