@@ -1,7 +1,7 @@
 h1
 {
 	margin: auto; /* fonctionne avec le module flexbox*/
-	padding: 20px;	
+	padding: 1.25rem;	
     text-align: center;
 }
 
@@ -46,7 +46,7 @@ italic
 {
     width: 50%;
     text-align: justify;
-    padding-right: 20px;
+    padding-right: 1.25px;
 }
 /*******************STOP ABOUT ME***************************/
 
@@ -58,12 +58,12 @@ italic
     justify-content: space-around;
     align-items: center;
     margin: auto;  
-    padding: 30px;   /* marge intérieur **/
+    padding: 1.87rem;   /* marge intérieur **/
 }
 
 .img_exp1, .img_exp2, .img_exp3, .img_exp4, .img_dip1, .img_dip2
 {
-    width: 300px;
+    width: 18.75rem;
     height: auto;
 }
 
@@ -71,8 +71,8 @@ italic
 {
     /*border: 1px red solid;*/
     width: 70%;
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 1.87rem;
+    padding-top: 1.87rem;
     text-align: justify;
 }
 
@@ -90,17 +90,17 @@ italic
 
 .img_html5, .img_css3, .img_php, .img_matlab, .img_java, .img_python
 {
-    width: 150px;
+    width: 9.37rem;
     height: auto;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
 }
 
 .progress
 {
     background-color: sandybrown;
-    height: 50px;
-    width: 500px;
+    height: 3.12rem;
+    width: 31.25rem;
 }
 
 .comp_html5, .comp_css3, .comp_php, .comp_matlab, .comp_java, .comp_python
@@ -109,27 +109,27 @@ italic
     align-items: center;
     /*padding-top: 20px;
     padding-left: 20px;*/
-    padding: 20px;
+    padding: 1.25rem;
 } 
 
 .container-sm
 {
     position: relative;
-    top: 10px;
-    left: 415px;
+    top: 0.62rem;
+    left: 25.93rem;
     align-items: center;
 }
 
 .btn_position
 {
     position: relative;
-    top: 5px;
-    left: 20px;
+    top: 0.31rem;
+    left: 1.25rem;
 }
 
 .sr-only
 {
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 
 
@@ -142,15 +142,15 @@ italic
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .lie, .pho, .mai, .sit
 {
-    height: 20px;
+    height: 1.25rem;
     width: auto;
-    padding-left: 30px;
-    padding-right: 5px;
+    padding-left: 1.87rem;
+    padding-right: 0.31rem;
 }
 
 #conteneur_reseau
@@ -159,10 +159,10 @@ italic
     justify-content: center;
 }
 
-#logocontact
+.log_twi, .log_lin, .log_ins, .log_git
 {
-    height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: 3.12rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 /*******************STOP CONTACT***************************/
