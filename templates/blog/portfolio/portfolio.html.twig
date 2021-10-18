@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Portfolio de Jean Pignet - Portfolio{% endblock %}
+
+{% block body %}
+<h1>Portfolio</h1>
+
+<h2>Projet PHP</h2>
+<br>
+
+<div class="card">
+  <a href="images/to_do_list.png"><img src="images/to_do_list.png" class="card-img-top" alt="..."></a>
+  <div class="card-body">
+    <h5 class="card-title">ToDoList</h5>
+    <p class="card-text">Mini projet effectué dans le but de maitriser le concept de formulaire, de tableaux et de base de données.</p> 
+    <p>Ajout de tâche à effectuer avec la date, possibilité de la modifier ou de la supprimer. Listing des tâches en direct dans l’ordre chronologique.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <strong>Methode et  outils :</strong>
+      Visual Studio Code, PHP 7, Bootstrap, MySQL, PhpMyAdmin, Html5
+    </li>
+    <li class="list-group-item">
+      <strong>Architecture :</strong> 
+      MVC
+    </li>    
+  </ul>
+  <div class="card-footer text-center">
+    <a href="https://github.com/Jpignet/to-do-list"><img class="link_todolist" src="/images/logo_github.png" alt="Lien GitHub_ToDoList Pignet Jean" title="Lien GitHub_ToDoList Jean Pignet"></a>
+  </div>
+</div>
+
+<br>
+
+
+{% endblock %}
+
+

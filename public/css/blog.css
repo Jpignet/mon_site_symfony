@@ -136,6 +136,21 @@ italic
 
 /*******************STOP COMPETENCE***************************/
 
+/*******************START PORTFOLIO***************************/
+.card
+{
+    width: 30rem;
+}
+
+.link_todolist
+{
+    height: 3.12rem;
+    width: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+/*******************STOP PORTFOLIO***************************/
+
 /*******************START CONTACT***************************/
 #conteneur_detail
 {
